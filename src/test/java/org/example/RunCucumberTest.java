@@ -7,6 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/parellel",
-        plugin = {"pretty"})
+        plugin = {"pretty"}, tags = "@Wiki"
+        )
+
 public class RunCucumberTest {
 }
